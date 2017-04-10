@@ -12,9 +12,12 @@
   }
   ```
   - Plain js objects
-    - Must have a `type` property, indicating the type of action to performs
+    - PASS AS LITTLE DATA IN THE OBJ AS POSSIBLE
+  - Must have a `type` property, indicating the type of action to performs
+  - Good idea: add unique ID (an index value) with each action
 
 ## Reducers
+  - Tie state and action together
 
 ## Store
 
